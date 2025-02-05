@@ -5,14 +5,14 @@ Kali Linux in WSL
 
 RUN POWERSHELL as administrator
 
-👉 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+👉 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux <br>
 
-RESTART
+RESTART <br>
 👉 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 👉 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-RESTART
+RESTART <br>
 
 Download Linux Kernel: https://aka.ms/wsl2kernel
 
