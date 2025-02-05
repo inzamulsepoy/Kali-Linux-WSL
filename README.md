@@ -1,11 +1,17 @@
 # Kali-Linux-WSL
 Kali Linux in WSL
 
-1. INSTALL WSL 2
+<h2>1. INSTALL WSL 2</h2>
+
+Check your windows version.
+win + R
+cmd
+winver
+it should be above 19041
 
 RUN POWERSHELL as administrator
 
-👉 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux <br>
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux <br>
 
 RESTART <br>
 👉 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
