@@ -55,7 +55,7 @@ create a username and password <br>
 
 run - cat /etc/os-release <br>
 
-<h3>INSTALL GUI<h3/>
+<h3>INSTALL GUI</h3>
   
 run the commands<br>
   
