@@ -20,18 +20,18 @@ RESTART <br>
 Run Windows PowerShell as administrator <br>
 run this command<br>
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  <br>
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux 
 ```
 
 RESTART <br>
 
 run this command<br>
 ```
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart<br>
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 run this command<br>
 ```
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart  <br>
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 RESTART <br>
 
