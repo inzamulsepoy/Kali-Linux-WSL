@@ -1,11 +1,12 @@
 # Kali-Linux-WSL installation guide
 Complete Guide to install Kali Linux in windows-WSL
 
-<h2>INSTALL WSL 2</h2>
+<h1>INSTALL WSL 2</h1>
+<h2>Step 1</h2>
 
 Check your windows version.
 win + R <br>
-<h2>Step 1</h2>
+
 ```
 winver
 ```
