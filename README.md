@@ -7,7 +7,7 @@ Complete Guide to install Kali Linux in windows-WSL
 <h2>Step 1</h2>
 
 Check your windows version.
-win + R <br>
+Press Window + R <br>
 
 ```
 winver
@@ -17,7 +17,7 @@ It should be above 19041 <br>
 <h2>Step 2</h2>
 
 Enable- WindowsOptionalFeature <br>
-write in win + R<br>
+Press Window + R<br>
 ```
 optionalfeatures
 ```
@@ -28,7 +28,7 @@ RESTART <br>
 <h2>Step 3</h2>
 
 Run Windows PowerShell as administrator <br>
-run this command<br>
+Run this command<br>
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux 
 ```
@@ -37,12 +37,12 @@ RESTART <br>
 
 <h2>Step 4</h2>
 
-run this command<br>
+Run this command<br>
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-run this command<br>
+Run this command<br>
 ```![kali-linux-modern-wsl](https://github.com/user-attachments/assets/4233c755-41bb-4a0c-bd6c-7c79efccf97b)
 ![kali-linux-modern-wsl](https://github.com/user-attachments/assets/f9178006-143b-4d7f-b86d-e93d731f8294)
 
@@ -63,7 +63,7 @@ and install it <br>
 
 Open Windows PowerShell as Administrator<br>
 
-run the command <br>
+Run the command <br>
 ```
 wsl --set-default-version 2
 ```
@@ -84,7 +84,7 @@ cat /etc/os-release
 <h2>Step 9</h2>
 <h3>INSTALL GUI</h3>
   
-run the commands<br>
+Run the commands<br>
 ```  
 sudo apt update && sudo apt upgrade -y
 ```
@@ -93,7 +93,7 @@ sudo apt install kali-desktop-xfce -y
 ```
 <h2>Step 10</h2>
 CHECK VERSION <br>
-open Windows PowerShell and run the command <br>
+Open Windows PowerShell and run the command <br>
 
 ```
 wsl --list --verbose
@@ -102,7 +102,7 @@ wsl --list --verbose
 <h2>Step 11</h2>
 <h3>XRDP - Remote Desktop Protocol</h3>
 
-run the following commands <br>
+Run the following commands on Linux Terminal: <br>
 ```
 sudo apt install xrdp -y
 ```
@@ -111,7 +111,7 @@ sudo service xrdp start
 ```
 <h2>Step 12</h2>
 
-Run the command in kali linux terminal
+Run the command in kali linux terminal:
 
 ```
 ip add
