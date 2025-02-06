@@ -90,9 +90,11 @@ sudo apt install kali-desktop-xfce -y
 <h2>Step 10</h2>
 CHECK VERSION <br>
 open Windows PowerShell and run the command <br>
+
 ```
 wsl --list --verbose
 ```
+
 <h2>Step 11</h2>
 <h3>XRDP - Remote Desktop Protocol</h3>
 
