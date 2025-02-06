@@ -17,7 +17,9 @@ RESTART <br>
 
 Run Windows PowerShell as administrator <br>
 run this command<br>
+```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux  <br>
+```
 
 RESTART <br>
 
