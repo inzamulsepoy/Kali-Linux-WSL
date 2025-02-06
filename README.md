@@ -1,6 +1,8 @@
 # Kali-Linux-WSL installation guide
 Complete Guide to install Kali Linux in windows-WSL
 
+![ALT TEXT]
+
 <h1>INSTALL WSL 2</h1>
 <h2>Step 1</h2>
 
@@ -41,7 +43,9 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 
 run this command<br>
-```
+```![kali-linux-modern-wsl](https://github.com/user-attachments/assets/4233c755-41bb-4a0c-bd6c-7c79efccf97b)
+![kali-linux-modern-wsl](https://github.com/user-attachments/assets/f9178006-143b-4d7f-b86d-e93d731f8294)
+
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 RESTART <br>
