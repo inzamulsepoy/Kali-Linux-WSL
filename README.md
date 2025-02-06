@@ -11,7 +11,7 @@ it should be above 19041 <br>
 Enable- WindowsOptionalFeature <br>
 write in win + R<br>
 ```
-optionalfeatures<br>
+optionalfeatures
 ```
 Check on - Windows Subsystem for Linux, Virtual Machine Platform, Windows Sandbox  <br>
 
@@ -47,7 +47,7 @@ Open Windows PowerShell as Administrator<br>
 
 run the command <br>
 ```
-wsl --set-default-version 2 <br>
+wsl --set-default-version 2
 ```
 
 go to the microsoft store <br>
@@ -59,34 +59,34 @@ create a username and password <br>
 
 run - 
 ```
-cat /etc/os-release <br>
+cat /etc/os-release
 ```
 <h3>INSTALL GUI</h3>
   
 run the commands<br>
 ```  
-sudo apt update && sudo apt upgrade -y <br>
+sudo apt update && sudo apt upgrade -y
 ```
 ```
-sudo apt install kali-desktop-xfce -y <br>
+sudo apt install kali-desktop-xfce -y
 ```
 CHECK VERSION <br>
 open Windows PowerShell and run the command <br>
 ```
-wsl --list --verbose <br>
+wsl --list --verbose
 ```
 <h3>XRDP - Remote Desktop Protocol</h3>
 
 run the following commands <br>
 ```
-sudo apt install xrdp -y <br>
+sudo apt install xrdp -y
 ```
 ```
-sudo service xrdp start <br>
+sudo service xrdp start
 ```
 run - 
 ```
-ip add <br>
+ip add
 ```
 and copy the ipaddress after inet <br>
 
