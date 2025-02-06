@@ -106,15 +106,18 @@ sudo apt install xrdp -y
 sudo service xrdp start
 ```
 <h2>Step 12</h2>
-run - 
+
+Run the command in kali linux terminal
+
 ```
 ip add
 ```
-and copy the ipaddress after inet <br>
+
+Copy the ipaddress after inet <br>
 
 <h2>Step 13</h2>
-search for remote desktop connection in windows <br>
-paste the ip address <br>
+Search for remote desktop connection in windows <br>
+Paste the ip address <br>
 
 <h2>Step 14</h2>
-login with the createad username and password
+Login with the created username and password
