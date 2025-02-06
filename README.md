@@ -5,7 +5,10 @@ Complete Guide to install Kali Linux in windows-WSL
 
 Check your windows version.
 win + R <br>
-winver <br>
+<h2>Step 1</h2>
+```
+winver
+```
 it should be above 19041 <br>
 
 Enable- WindowsOptionalFeature <br>
