@@ -10,7 +10,9 @@ win + R <br>
 ```
 winver
 ```
-it should be above 19041 <br>
+It should be above 19041 <br>
+
+<h2>Step 2</h2>
 
 Enable- WindowsOptionalFeature <br>
 write in win + R<br>
