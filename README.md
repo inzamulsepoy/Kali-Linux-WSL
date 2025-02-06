@@ -39,20 +39,21 @@ run this command<br>
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-<h2>Step 5</h2>
+
 run this command<br>
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 RESTART <br>
-<h2>Step 6</h2>
+
+<h2>Step 5</h2>
 Download Linux Kernel: https://aka.ms/wsl2kernel <br>
 
 Download the latest package <br>
 
 and install it <br>
 
-<h2>Step 7</h2>
+<h2>Step 6</h2>
 
 <h3>SET DEFAULT TO WSL 2</h3>
 
@@ -62,13 +63,13 @@ run the command <br>
 ```
 wsl --set-default-version 2
 ```
-<h2>Step 8</h2>
+<h2>Step 7</h2>
 go to the microsoft store <br>
 and download kali linux App <br>
 
 Open it after downloading & installing <br>
 
-<h2>Step 9</h2>
+<h2>Step 8</h2>
 
 create a username and password <br>
 
@@ -76,7 +77,7 @@ run -
 ```
 cat /etc/os-release
 ```
-<h2>Step 10</h2>
+<h2>Step 9</h2>
 <h3>INSTALL GUI</h3>
   
 run the commands<br>
@@ -86,13 +87,13 @@ sudo apt update && sudo apt upgrade -y
 ```
 sudo apt install kali-desktop-xfce -y
 ```
-<h2>Step 11</h2>
+<h2>Step 10</h2>
 CHECK VERSION <br>
 open Windows PowerShell and run the command <br>
 ```
 wsl --list --verbose
 ```
-<h2>Step 12</h2>
+<h2>Step 11</h2>
 <h3>XRDP - Remote Desktop Protocol</h3>
 
 run the following commands <br>
