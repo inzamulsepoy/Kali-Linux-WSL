@@ -1,7 +1,7 @@
 # Kali-Linux-WSL installation guide
 Complete Guide to install Kali Linux in windows-WSL
 
-![ALT TEXT]
+![KALI ALT](https://github.com/inzamulsepoy/Kali-Linux-WSL/blob/main/kali-linux-modern-wsl.jpg)
 
 <h1>INSTALL WSL 2</h1>
 <h2>Step 1</h2>
